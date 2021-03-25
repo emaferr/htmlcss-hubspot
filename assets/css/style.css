@@ -21,8 +21,18 @@
 }
 
 .contain{
-    
+    width: 70%;
+    margin: auto;
 }
+
+.nav_txt{
+    color: #32495B;
+    font-size: 0.7rem;
+}
+
+a, i, #m_glass{
+    cursor: pointer;
+}      
 
 /*************************** 
 * end Utility
@@ -30,10 +40,83 @@
 
 
 /***************************
-* Header
+* Bottom
+***************************/
+.button{
+    text-decoration: none;
+    border: 0.1rem solid #FE775A;
+    border-radius: 0.3rem;
+    background-color: #FE775A;
+    color: #F4F9FD; 
+    padding: 0.8rem 1.5rem; 
+}
+
+#login_btn{
+    margin: 0 1rem;
+    color: #FE775A;
+    background-color: #F4F9FD;
+}
+
+#top_ghf_btn, #login_btn{
+    padding: 0.5rem 0.5rem;
+}
+/***************************
+* end Bottom
 ***************************/
 
 
+/***************************
+* Header
+***************************/
+.nav_txt{
+    color: #32495B;
+    font-size: 0.7rem;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: #32495B;
+
+}
+
+.top_nav{
+    background-color: #F4F9FD;
+}
+
+.bottom_nav{
+    background-color: #a75252;
+}
+
+.top_nav, .bottom_nav {
+    width: 100%;
+    height: 75px;
+    padding-top: 1.8rem;
+}
+
+.top_nav_dx{
+    text-align: right;
+    display: inline-block;
+}
+
+.top_nav_sx, .top_nav_dx{
+    width: 50%;
+    height: 3rem;
+    float: left;
+
+}
+
+#m_glass{
+    height: 0.8rem;
+
+}
+
+
+#contact::before{
+    content: "";
+    background-color: #32495B;
+    margin: 0 1.2rem 0 0.8rem;
+    padding: 0 0.03rem;   
+}
 
 
 

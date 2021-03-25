@@ -12,7 +12,10 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/HubSpot-Inversed-Favicon.webp" />
+
+    <!-- Icons set -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Icons set -->
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,7 +26,8 @@
     <style>
 
         body{
-            font-family: 'Montserrat', sans-serif;
+            font-family:'Montserrat', sans-serif;
+            font-weight: 500;
         }
     </style>
      <!-- Style for the whole body -->
@@ -33,36 +37,52 @@
 <body class="page_container">
 
     <!-- Header -->
-    <header class="page_header clearfix">
+    <header class="page_header">
 
         <!-- Top head -->
-        <head class="top_head">
+        <nav class="top_nav nav_txt">
 
             <!-- Top head contain -->
-            <div class="contain">
+            <div class="contain clearfix">
 
-                <div class="top_sx"></div>
+                <div class="top_nav_sx">
+
+                    <i class="fas fa-globe-europe"></i>
+                    <a class="nav_link" href="#">English</a>
+                    <i id="fas_top" class="fas fa-chevron-down"></i>
+                    <a id="contact" class="nav_link" href="#">Contact Us</a>
+                    
+                </div>
     
-                <div class="top_dx"></div>
+                <div class="top_nav_dx">
+
+                    <img id="m_glass" src="./assets/img/search-20icon.webp" alt="magnifying glass">
+                    <a id="login_btn" class="button" href="#">Log in</a>
+                    <a id="top_ghf_btn" class="button" href="#">GetHubspotFree</a>
+
+                </div>
 
             </div>
             
-        </head>
+        </nav>
         <!-- end Top head -->
 
         <!-- Bottom head -->
-        <head class="top_head">
+        <nav class="bottom_nav nav_txt nav_link">
 
             <!-- Bottom head contain -->
             <div class="contain">
 
-                <div class="bottom_sx"></div>
+                <div class="bottom_nav_sx">
+
+                    
+                </div>
     
-                <div class="bottom_dx"></div>
+                <div class="bottom_nav_dx"></div>
 
             </div>
             
-        </head>
+        </nav>
         <!-- end Bottom head -->
 
     </header>

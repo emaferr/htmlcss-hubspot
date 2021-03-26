@@ -27,13 +27,19 @@
 
 .nav_txt{
     color: #32495B;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 a, i, #m_glass{
     cursor: pointer;
-}      
+} 
 
+hr{
+    color: #33485B;
+    background: #33485B;
+    border: 0;
+    height: 0.1rem;
+}
 /*************************** 
 * end Utility
 ***************************/
@@ -70,39 +76,47 @@ a, i, #m_glass{
 ***************************/
 .nav_txt{
     color: #32495B;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .nav_link{
     text-decoration: none;
     color: #32495B;
-
+    padding-left: 1rem;
 }
+
 
 .top_nav{
     background-color: #F4F9FD;
 }
 
-.bottom_nav{
-    background-color: #a75252;
-}
-
 .top_nav, .bottom_nav {
     width: 100%;
-    height: 75px;
-    padding-top: 1.8rem;
+    height: 80px;
 }
 
 .top_nav_dx{
     text-align: right;
+    padding-top: 1.9rem;
+}
+
+.top_nav_sx, .bottom_nav_dx{
+    padding-top: 2rem;
+}
+
+.top_nav_sx, .top_nav_dx, .bottom_nav_sx, .bottom_nav_dx{
+    float: left;
+    width: 50%;
+    height: 3rem;
     display: inline-block;
 }
 
-.top_nav_sx, .top_nav_dx{
-    width: 50%;
-    height: 3rem;
-    float: left;
+.bottom_nav_dx{
+    text-align: right;
+}
 
+.bottom_nav_sx{
+    padding-top: 1.5rem;
 }
 
 #m_glass{
@@ -110,20 +124,75 @@ a, i, #m_glass{
 
 }
 
+/* Jumbotron */
+.jumbo_contain{
+    width: 45%;
+    display: inline-block;
+}
 
+.jumbo_img{
+    height: 610px;
+    background-image: url(../img/jumbotron.png);
+    background-size: 100% 114%;
+    background-repeat: no-repeat;
+}
+
+.jumbo_txt{
+    text-align: left;
+    line-height: 2em;
+    padding: 2rem 0 3rem 0;
+}
+
+#jumbo_title{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 5rem;
+    line-height: 2.5rem;
+    color: #33475B;
+}
+
+.jumbo_contain p:last-child{
+    font-size: 0.7rem;
+    margin-top: 3rem;
+}
+/* end Jumbotron */
+
+#end_header{
+    height: 80px;
+    background-color: #AFEBE4;
+    border-top: 0.2rem solid #33475B;
+    border-bottom: 0.2rem solid #33475B;
+}
+
+/* after&before Header */
 #contact::before{
-    content: "";
-    background-color: #32495B;
-    margin: 0 1.2rem 0 0.8rem;
-    padding: 0 0.03rem;   
+    content: '';
+    width: 0.07rem;
+    height: 0.7rem;
+    background-color: #808080;
+    display: inline-block;
+    margin-right: 1.2rem;
+}
+/* end after&before Header */
+
+/***************************
+* end Header
+***************************/
+
+
+/***************************
+* Main
+***************************/
+.first_main_contain{
+    width: 100%;
+    height: 1500px;
+    background-color: #95c551;
 }
 
 
 
 
-
-
 /***************************
-* end Header
+* end Main
 ***************************/
 

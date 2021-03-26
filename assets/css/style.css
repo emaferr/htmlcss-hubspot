@@ -155,8 +155,6 @@ ul{
 .top_nav_sx, .top_nav_dx, .bottom_nav_sx, .bottom_nav_dx{
     float: left;
     width: 50%;
-    height: 3rem;
-    display: inline-block;
 }
 
 .bottom_nav_dx{
@@ -169,6 +167,7 @@ ul{
 
 #m_glass{
     height: 0.8rem;
+    vertical-align: middle;
 }
 
 /* Jumbotron */
@@ -326,11 +325,10 @@ ul{
 /* Numbers section */
 .third_main_contain{
     width: 100%;
-    height: 690px;
+    height: 680px;
     float: left;
     background: linear-gradient(to right, #00A9BA, #00BBA8);
     text-align: center;
-    margin-top: 2.9rem;
 }
 
 .four_column{
@@ -376,9 +374,64 @@ ul{
      height: 1.5rem;
      margin-top: 1.8rem;
  }
- 
-
 /* end Numbers section */
+
+/* Sponsor section */
+.fourth_main_contain{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    padding-top: 3rem;
+    float: left;
+}
+
+.sponsor_txt{
+    width: 40%;
+    float: left;
+    padding-left: 4.5rem;
+
+}
+
+.sponsor_img_contain{
+    width: 60%;
+    float: left;  
+}
+
+.sponsor_img{
+    height: auto;
+    width: 6.5rem;
+    margin: 1rem 1.5rem 1.5rem 1rem ;
+    vertical-align: middle;
+    
+}
+/* end Sponsor section */
+
+/* Woman section */
+.woman_section{
+    width: 100%;
+    float: left;
+}
+
+.woman_section_sx{
+    width: 40%;
+    float: left;
+    text-align: left;
+    padding-top: 5rem;
+}
+
+#box_woman{
+    text-align: right;
+    padding-top: 3rem;
+
+}
+
+
+
+
+
+
+
+/* end Woman section */
 
 /* after&before Main */
 #crm_uppercase::after{

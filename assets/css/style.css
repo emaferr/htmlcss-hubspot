@@ -40,6 +40,16 @@ hr{
     border: 0;
     height: 0.1rem;
 }
+
+.center{
+    text-align: center;
+    line-height: 2em;
+}
+
+h2{
+    color: #33475B;
+    padding-bottom: 1rem;
+}
 /*************************** 
 * end Utility
 ***************************/
@@ -186,12 +196,38 @@ hr{
 .first_main_contain{
     width: 100%;
     height: 1500px;
-    background-color: #95c551;
+    background-color: #F4F9FD;
 }
 
+#cube_img{
+    height: 250px;
+    padding-top: 3rem;
+}
 
+.cube_section{
+    height: 420px;
+    width: 50%;
+}
 
+#crm{
+    height: 330px;
+    background-color: crimson;
+    width: 35%;
+    text-align: center;
+    float: left;
+}
 
+#crm_2{
+    height: 330px;
+    background-color: rgb(193, 220, 20);
+    width: 65%;
+    float: left;
+}
+
+.crm_img{
+    height: 100px;
+    margin: 4rem 2rem 2rem 2rem;
+}
 /***************************
 * end Main
 ***************************/

@@ -102,7 +102,8 @@ ul{
     border-radius: 0.3rem;
     background-color: #FE775A;
     color: #F4F9FD; 
-    padding: 1rem 1.5rem; 
+    padding: 1rem 1.5rem;
+    cursor: pointer; 
 }
 
 #login_btn{
@@ -424,13 +425,6 @@ ul{
     padding-top: 3rem;
 
 }
-
-
-
-
-
-
-
 /* end Woman section */
 
 /* after&before Main */
@@ -479,3 +473,79 @@ ul{
 * end Main
 ***************************/
 
+
+/***************************
+* Chat Bot
+***************************/
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #425C77;
+    background-image: url(../img/launcher-open-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #425C77;
+    padding: 5px 5px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 14px;
+    outline:none
+    
+}
+
+.open-button:focus{
+    background-color:#00aabab3;
+    border: 2px solid #007f9072;
+    
+}
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 100px;  
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    height: 150px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #007f9072;
+    border-radius: 10px;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    border: none;
+    resize: none;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    outline: none;  
+} 
+
+#close_btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute; 
+    top: 10px;
+    right: 15px;
+    cursor: pointer;  
+}
+
+/***************************
+* end Chat Bot
+***************************/

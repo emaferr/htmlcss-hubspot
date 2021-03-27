@@ -35,7 +35,6 @@ a, i, #m_glass{
 } 
 
 hr{
-    color: #33485B;
     background: #33485B;
     border: 0;
     height: 0.1rem;
@@ -54,7 +53,6 @@ h2, h3{
 h2{
     padding-bottom: 1rem;
 }
-
 
 .white_h2{
     color: #ffffff;
@@ -88,17 +86,37 @@ ul{
     color: white;
     line-height: 1.5rem;
 }
+
+#login_btn:hover{
+    background-color: #fcc0b3c1;
+}
+
+.button:hover{
+    background-color: #fcc0b3c1;
+
+}
+
+.nav_link:hover{
+    color: #7EBEC8;
+    border-bottom: 1px solid #7EBEC8;
+}
+
+.copyright{
+    display: block;
+    line-height: 5px;
+    
+}
 /*************************** 
 * end Utility
 ***************************/
 
 
 /***************************
-* Bottom
+* Button
 ***************************/
 .button{
     text-decoration: none;
-    border: 0.1rem solid #FE775A;
+    border: 0.1rem solid #fa7253;
     border-radius: 0.3rem;
     background-color: #FE775A;
     color: #F4F9FD; 
@@ -115,14 +133,31 @@ ul{
 #top_ghf_btn, #login_btn{
     padding: 0.5rem 0.5rem;
 }
+
+#footer_btn{
+    padding: 0.7rem 0.4rem;
+    font-size: 0.8rem;
+    background-color: #DADEE0;
+    color: #32495B;
+    border-color: #F8F9F9;
+    margin: 0;
+}
+
+#footer_btn:hover{
+    background-color: #eeeeee7e;
+}
 /***************************
-* end Bottom
+* end Button
 ***************************/
 
 
 /***************************
 * Header
 ***************************/
+.fa_user{
+    margin-left: 1rem;
+}
+
 .nav_txt{
     color: #32495B;
     font-size: 0.8rem;
@@ -131,7 +166,7 @@ ul{
 .nav_link{
     text-decoration: none;
     color: #32495B;
-    padding-left: 1rem;
+    margin-left: 1rem;
 }
 
 
@@ -210,18 +245,6 @@ ul{
     border-top: 0.2rem solid #33475B;
     border-bottom: 0.2rem solid #33475B;
 }
-
-/* after&before Header */
-#contact::before{
-    content: '';
-    width: 0.07rem;
-    height: 0.7rem;
-    background-color: #808080;
-    display: inline-block;
-    margin-right: 1.2rem;
-}
-/* end after&before Header */
-
 /***************************
 * end Header
 ***************************/
@@ -313,8 +336,7 @@ ul{
 }
 
 .lm_btn{
-    margin-top: 4rem;
-    
+    margin-top: 4rem;  
 }
 
 .mss_section a:last-child{
@@ -435,8 +457,7 @@ ul{
     background-color: #899397;
     display: inline-block;
     margin-left: 4rem;
-    margin-bottom: 0.3rem;
-   
+    margin-bottom: 0.3rem; 
 }
 
 .main_link::before{
@@ -467,7 +488,7 @@ ul{
     padding-left: 0.2rem;
     
 }
-/* after&before Main */
+/* end after&before Main */
 
 /***************************
 * end Main
@@ -475,32 +496,93 @@ ul{
 
 
 /***************************
+* Footer
+***************************/
+.page_footer{
+    background-color: #32495B;
+    width: 100%;
+    height: 620px;
+    float: left;
+}
+
+.h4_footer{
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.footer_column{
+    width: 25%;
+    height: 420px;
+    float: left;
+}
+
+.footer_txt{
+    color: #ffffffab;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 35px;
+}
+
+.social:hover{
+    color: #7EBEC8;
+}
+
+.social{
+    color: #ffffffab;
+    padding-top: 10px;
+    padding-right: 22px;
+}
+
+.languages_container{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.languages_container::after{
+    content: "";
+    width: 100%;
+    height: 0.1rem;
+    background-color: #ffffffab;
+    display: inline-block;
+    margin-top: 0.3rem; 
+}
+/***************************
+* end Footer
+***************************/
+
+#css_validator{
+    margin-top: 20px;
+    margin-left: 6px;
+} 
+
+/***************************
 * Chat Bot
 ***************************/
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
+    background-size: 32px 32px;
+    box-shadow: 0 0 0.3rem #414141dc;
     background-color: #425C77;
     background-image: url(../img/launcher-open-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    border: 1px solid #425C77;
-    padding: 5px 5px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #405a76;
     cursor: pointer;
     position: fixed;
     bottom: 15px;
     right: 14px;
     outline:none
-    
 }
 
 .open-button:focus{
-    background-color:#00aabab3;
-    border: 2px solid #007f9072;
-    
+    background-color: #7EBEC8;
+    border: 2px solid #007f9072;  
 }
+
 /* The popup chat - hidden by default */
 .chat-popup {
     display: none;
@@ -545,7 +627,8 @@ ul{
     right: 15px;
     cursor: pointer;  
 }
-
 /***************************
 * end Chat Bot
 ***************************/
+
+

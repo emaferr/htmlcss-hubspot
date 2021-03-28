@@ -670,14 +670,14 @@ ul{
 .rombo {
 	width:15px;
 	height:15px; 
-	transform:rotate(45deg) skew(10deg, 10deg);
+	transform:rotate(45deg) skew(3deg, 3deg);
 	background: white;
     border-left: 1px solid #7EBEC8;
     border-top: 1px solid #7EBEC8;
     margin-left: 65px;
     margin-top: -13.51px;
     margin-bottom: -4px;
-    border-top-left-radius: 4px;
+    border-top-left-radius: 3px;
 }
 
 .ul_drop{
@@ -704,6 +704,7 @@ ul{
 .trecol span{
     font-size: 15px;    
 }
+
 /***************************
 * end Dropdown
 ***************************/

@@ -590,7 +590,7 @@ ul{
     bottom: 100px;  
     right: 15px;
     border: 3px solid #f1f1f1;
-    border-radius: 10px;
+    border-radius: 15px;
     z-index: 9;
 }
 
@@ -600,7 +600,7 @@ ul{
     height: 150px;
     padding: 10px;
     background-color: #ffffff;
-    border: 2px solid #007f9072;
+    /* border: 2px solid #007f9072; */
     border-radius: 10px;
 }
 
@@ -631,4 +631,8 @@ ul{
 * end Chat Bot
 ***************************/
 
-
+.no_link:hover{
+    border: none;
+    color: #32495B;
+    cursor: default;
+}

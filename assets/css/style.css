@@ -103,8 +103,11 @@ ul{
 
 .copyright{
     display: block;
-    line-height: 5px;
-    
+    line-height: 5px; 
+}
+
+.bold{
+    font-weight: bold;
 }
 /*************************** 
 * end Utility
@@ -592,6 +595,7 @@ ul{
     border: 3px solid #f1f1f1;
     border-radius: 15px;
     z-index: 9;
+    box-shadow: 0 0 0.3rem #414141dc;
 }
 
 /* Add styles to the form container */
@@ -600,8 +604,8 @@ ul{
     height: 150px;
     padding: 10px;
     background-color: #ffffff;
-    /* border: 2px solid #007f9072; */
     border-radius: 10px;
+    border: none;
 }
 
 /* Full-width textarea */
@@ -637,7 +641,69 @@ ul{
     cursor: default;
 }
 
-#fixed_header{
-    position: fixed;
-    top: unset;
+
+/***************************
+* Dropdown
+***************************/
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 106px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 0px;
+    z-index: 1;
+    margin-top: 15px;
+    border: 1px solid #7EBEC8;
+    border-radius: 4px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.rombo {
+	width:15px;
+	height:15px; 
+	transform:rotate(45deg) skew(10deg, 10deg);
+	background: white;
+    border-left: 1px solid #7EBEC8;
+    border-top: 1px solid #7EBEC8;
+    margin-left: 65px;
+    margin-top: -13.51px;
+    margin-bottom: -4px;
+    border-top-left-radius: 4px;
+}
+
+.ul_drop{
+    line-height: 30px; 
+    text-align: left; 
+    float: left;
+}
+
+.big{
+    min-width: 630px;
+    right: -40px;
+} 
+
+#big_rombo{
+    margin-left: 591px;
+}
+
+.trecol{
+    margin-right: 20px;
+    padding: 10px 20px;
+    line-height: 50px;
+}
+
+.trecol span{
+    font-size: 15px;    
+}
+/***************************
+* end Dropdown
+***************************/

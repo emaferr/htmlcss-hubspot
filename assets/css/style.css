@@ -109,6 +109,14 @@ ul{
 .bold{
     font-weight: bold;
 }
+
+.m_left{
+    margin-left: 20px;
+}
+
+.p_left{
+    padding-left: 2.5%;
+}
 /*************************** 
 * end Utility
 ***************************/
@@ -169,7 +177,7 @@ ul{
 .nav_link{
     text-decoration: none;
     color: #32495B;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 
@@ -675,41 +683,91 @@ ul{
 	width:15px;
 	height:15px; 
 	transform:rotate(45deg) skew(3deg, 3deg);
-	background: white;
+	background: #ffffff;
     border-left: 1px solid #7EBEC8;
     border-top: 1px solid #7EBEC8;
     position: absolute;
     top: -8.5px;
-    right: 20px;
+    right: 24px;
     border-top-left-radius: 3px;
 }
 
+.rombo_b{
+    right: 81px;
+}
+
+#rombo_c{
+    right: 296px;
+}
+
 .ul_drop{
-    line-height: 30px; 
+    line-height: 25px; 
     text-align: left; 
     float: left;
+    width: calc(90%/3);
+}
+
+.drop_leanguges{
+    margin-left: 15px;
+    width: 100%;
 }
 
 .big{
     min-width: 630px;
-    right: -40px;
+    right: -100px;
 } 
 
 .extra_big{
     min-width: 850px;
+}
 
+.extra_big_2{
+    min-width: 1150px;
+    right: -315px;
+}
+
+#duecol ul{
+    width: 50%;
+    line-height: 30px;
 }
 
 .trecol{
-    margin-right: 20px;
-    padding: 10px 20px;
-    line-height: 50px;
+    padding: 10px 30px;
 }
 
 .trecol span{
     font-size: 15px;    
 }
 
+.about{
+    line-height: 40px;
+}
+
+#software_drop{
+    width: 100%;
+    margin: auto;
+   
+}
+
+.line_resource::before{
+    content: "";
+    width: 95%;
+    margin-left: 2.5%;
+    height: 1px;
+    background-color: #7EBEC8;
+    display: inline-block;  
+}
+
+.drop_img{
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 2%;
+}
+
+
 /***************************
 * end Dropdown
 ***************************/
+

@@ -664,7 +664,7 @@ ul{
 }
   
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block;  
 }
 
 .rombo {
@@ -674,9 +674,9 @@ ul{
 	background: white;
     border-left: 1px solid #7EBEC8;
     border-top: 1px solid #7EBEC8;
-    margin-left: 65px;
-    margin-top: -13.51px;
-    margin-bottom: -4px;
+    position: absolute;
+    top: -8.5px;
+    right: 20px;
     border-top-left-radius: 3px;
 }
 
@@ -691,8 +691,9 @@ ul{
     right: -40px;
 } 
 
-#big_rombo{
-    margin-left: 591px;
+.extra_big{
+    min-width: 850px;
+
 }
 
 .trecol{

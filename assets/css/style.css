@@ -562,6 +562,11 @@ ul{
     display: inline-block;
     margin-top: 0.3rem; 
 }
+
+.footer_link{
+    margin: 0 10px;
+
+}
 /***************************
 * end Footer
 ***************************/

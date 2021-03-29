@@ -200,7 +200,6 @@ ul{
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 999999;
 }
 
 
@@ -410,7 +409,7 @@ ul{
 /* end Numbers section */
 
 /* Sponsor section */
-.fourth_main_contain{
+.fourth_main_contain{   
     width: 100%;
     height: 650px;
     text-align: center;
